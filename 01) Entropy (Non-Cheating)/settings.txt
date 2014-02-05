@@ -1,0 +1,23 @@
+{\
+	'info':'The scripts of Entropy AI do not receive any free money whatsoever and are a testament to the hours of time spent manipulating lines of code in hopes to produce a better AI. While every one of these scripts is far stronger than the default AI, without the extra income, these Ai\'s will likely not be much of a challenge to the average StarCraft player; at least not 1v1. Adding a second computer opponent however may surprise you.\n\nSome scripts are designed to be extremely aggressive while others may expand or even tech up before doing anything. As such, the AI will work best as a team drawing support from each other.\n\nThis latest BWAI Launcher update is made possible by the hard work of Archon_Wing, who like Racine, spent many nights testing Entropy II noting any weak points or stability issues. Archon_Wing has also built one of the strongest non-cheating AI\'s at BWAI.com as well as helped many newcomers get started writing their own scripts. \n\nAll of this equates to a more exciting Entropy packed with many new additions as well as improved overall performance.\n\nHave fun and thnx to all that had enough courage to build a script without the use of the give_money command.\n\nDirections:\nFor Single Player, use the Entropyze button as playing any other way would just not be right!\n\nFor Multiplayer, ALL players must be using the same scripts from each category.  For the "entropy" multiplayer experience, use the Multiplayer scripts.  Note: NOT all categories have to use multiplayer, they just have to be all the same on all computers!',\
+	'entropy_scripts':{\
+		'Zerg':[u'Ashara Z v1.2', u'Avance Z v1', u'Myks Z v3.8', u'Raynor Z v1', u'Rocky Z v2', u'Unleaded Z v3.3', u'Zelduck Z v3.13', 'AccelZerg v1', 'Blizzard Z v1', 'Entropy Multiplayer Z v1', 'Panda  Z v0.2', 'Racine Z  v1', 'WarZerg v1', 'Yunharlas_Z v1.0'],\
+		'Protoss':[u'Ashara P v1.2', u'Myk P v3.5', u'Panda P v0.2', u'Peppe P v4c', u'Raynor P v2.1', u'Rocky P v2.05', u'Unleaded P v3.31', u'Zelduck P v3.13', 'Rocky II Protoss v2.6 non-cheating', 'Blizzard P v1', 'Entropy Multiplayer P v1', 'Racine P v1.0', 'Relentless P v0.2', 'TaranokAI P v1.5RE'],\
+		'Terran':[u'Accel T v1.52', u'Ashara T v1.2', u'Easychat T v2.06', u'Myk T v3.5', u'Raynor T v1.2', u'Rocky T v2.0', u'Unleaded T v3.31', u'Zelduck T v3.13', 'Accel T v1.53', 'Racine T v1', 'Blizzard T v1', 'Entropy Multiplayer T v1', 'War Hammer T v1'],\
+	},\
+	'extdefs':[\
+		u'APPDIR:Libs\\unitdef.txt',\
+	],\
+	'targetmpq':u'PKGDIR:Entropy3.exe',\
+	'targetexe':None,\
+	'previous':{\
+		'Zerg':'AccelZerg v1',\
+		'Protoss':'Ashara P v1.2',\
+		'Terran':'Accel T v1.53',\
+	},\
+	'entropyze':{\
+		'Zerg':True,\
+		'Protoss':True,\
+		'Terran':True,\
+	},\
+}
